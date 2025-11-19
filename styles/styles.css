@@ -14,7 +14,7 @@ nav a {
     padding: 20px;
 }
 hi {
-    colour: var(--colour);
+    color: var(--colour);
 }
 img {
     width: 150px;
