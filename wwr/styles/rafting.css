@@ -7,8 +7,8 @@
 :root {
   --primary-color: #055a05; /* forest green */
   --secondary-color: #f4a261; /* warm sand */
-  --accent1-color: #264653; /* dark slate blue */
-  --accent2-color: #e9c46a; /* light golden yellow */
+  --accent1-color: #072633; /* dark slate blue */
+  --accent2-color: #fff; /* light golden yellow */
   --heading-font: "Times New Roman", "Georgia", serif;
   --body-font: Arial, Helvetica, sans-serif;
 }
@@ -34,9 +34,9 @@ h1 {
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
-    color: #fff
+    color: var(--accent2-color)
 }
-article {
+.hero article {
     position: absolute;
     bottom: 10px;
     width: 96%;
@@ -44,18 +44,18 @@ article {
     text-align: center;
     opacity: 0.8;
     background-color: var(--accent1-color);
-    color: #fff;
+    color: var(--accent2-color);
 }
 h2 {
     display: block;
     text-align: center;
     background-color: var(--accent1-color);
-    color: white;
+    color: var(--accent2-color);
 }
 
 h1, h2 {
-    font-family: var(-- --heading-font);
-    color: var(var--primary-color);
+    font-family: var(--heading-font);
+    color: var(--primary-color);
 }
 nav, p, section, article {
     margin: 16px;
