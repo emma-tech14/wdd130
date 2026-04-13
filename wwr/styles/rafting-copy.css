@@ -6,8 +6,9 @@
 
 :root {
   --accent1-color: #072633; /* dark slate blue */
-  --accent2-color: black; /* light golden yellow */
-  --accent3-color: white;
+  --accent2-color: black;
+  --accent3-color: #eee; 
+  --accent4-color: white;
   --heading-font: "Times New Roman", "Georgia", serif;
   --body-font: Arial, Helvetica, sans-serif;
 }
@@ -80,7 +81,7 @@ form {
 button {
     padding: 10px;
     background-color: var(--accent1-color);
-    color: #eee;
+    color: var(--accent3-color);
     border: none;
     cursor: crosshair;
 }
@@ -121,7 +122,7 @@ footer {
     align-items: center;
     margin-top: 40px;
     padding: 20px;
-    background-color: #eee;
+    background-color: var(--accent3-color);
 }
 .socialmedia {
     display: flex;
