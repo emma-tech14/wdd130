@@ -25,7 +25,7 @@ nav a {
     padding: 8px 15px;
     border-radius: 5px;
     color: black;
-    border: ipx solid black;
+    border: ipx ;
 }
 
 body {
@@ -44,7 +44,7 @@ h2 {
 }
 
 h1 {
-    font-family: Times New Roman", "Georgia;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: black;
     text-align: center;
     margin: 15px 0;
