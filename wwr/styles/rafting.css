@@ -4,14 +4,6 @@
     box-sizing: border-box;
 }
 
-:root {
-  --accent1-color: #072633; /* dark slate blue */
-  --accent2-color: black;
-  --accent3-color: #eee; 
-  --accent4-color: white;
-  --heading-font: "Times New Roman", "Georgia", serif;
-  --body-font: Arial, Helvetica, sans-serif;
-}
 header{
     display: flex;
     justify-content: space-around;
@@ -37,8 +29,8 @@ nav a {
 }
 
 body {
-    font-family: var(--body-font);
-    color: var(--accent1-color);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #072633;
 }
 header, main, footer {
     max-width: 840px;
@@ -48,12 +40,12 @@ header, main, footer {
 
 h2 {
     text-align: center;
-    color: var(--accent2-color);
+    color: black;
 }
 
 h1 {
-    font-family: var(--heading-font);
-    color: var(--accent2-color);
+    font-family: Times New Roman", "Georgia;
+    color: black;
     text-align: center;
     margin: 15px 0;
 }
@@ -80,8 +72,8 @@ form {
 }
 button {
     padding: 10px;
-    background-color: var(--accent1-color);
-    color: var(--accent3-color);
+    background-color: #072633;
+    color:  #eee;
     border: none;
     cursor: pointer;
 }
@@ -122,7 +114,7 @@ footer {
     align-items: center;
     margin-top: 40px;
     padding: 20px;
-    background-color: var(--accent3-color);
+    background-color: #eee;
 }
 .socialmedia {
     display: flex;

@@ -4,7 +4,13 @@
     box-sizing: border-box;
 }
 
-
+:root {
+  --accent1-color: #072633; /* dark slate blue */
+  --accent2-color: black; /* light golden yellow */
+  --accent3-color: white;
+  --heading-font: "Times New Roman", "Georgia", serif;
+  --body-font: Arial, Helvetica, sans-serif;
+}
 header{
     display: flex;
     justify-content: space-around;
@@ -28,8 +34,8 @@ nav a {
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #072633;
+    font-family: var(--body-font);
+    color: var(--accent1-color);
 }
 header, main, footer {
     width: 840px;
@@ -45,8 +51,8 @@ header, main, footer {
     padding: 16px;
     text-align: center;
     opacity: 0.7;
-    background-color: #072633;
-    color: white;
+    background-color: var(--accent1-color);
+    color: var(--accent3-color)
 }
 .hero article {
     position: absolute;
@@ -57,18 +63,18 @@ header, main, footer {
     align-content: center;
     text-align: center;
     opacity: 0.8;
-    background-color: #072633;
-    color: white;
+    background-color: var(--accent1-color);
+    color: var(--accent3-color);
 }
 h2 {
     display: grid;
     text-align: center;
-    color: black;
+    color: var(--accent2-color);
 }
 
 h1, h2 {
-    font-family: Times New Roman", "Georgia;
-    color: black;
+    font-family: var(--heading-font);
+    color: var(--accent2-color);
 }
 nav, p, section, article {
     margin: 16px;
